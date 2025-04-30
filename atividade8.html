@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <script>
+      const nome = prompt("Digite seu nome:");
+      const idade = parseInt(prompt("Digite sua idade:"));
+      const matriculado = prompt("Você está matriculado? (s/n):");
+
+      if (idade > 0 && matriculado.toLowerCase() === "s") {
+        alert("Cadastro completo");
+      }
+    </script>
+  </body>
+</html>
